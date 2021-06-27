@@ -21,6 +21,7 @@ public enum AuthDefaultSource implements AuthSource {
 
         @Override
         public String accessToken() {
+            // 这样写可不太好哦
             return "https://github.com/login/oauth/access_token";
         }
 
